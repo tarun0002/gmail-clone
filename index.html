@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!---------------------NAV bar------------------------>
+    <header>
+        <nav class="flex-div">
+            <div class="nav-left">
+                <img src="images/menu.png">
+                <img src="images/gmail logo.png" class="logo">
+            </div>
+            <div class="nav-middle">
+                <div class="search-box">
+                    <img src="images/search.png">
+                    <input type="text" placeholder="Search emails">
+                    <img src="images/hamburger.png">
+                </div>
+                
+            </div>
+            <div class="nav-right">
+                <img src="images/help.png">
+                <img src="images/settings.png">
+                <img src="images/grid.png">
+                <img src="images/Jack.png" class="user-logo">
+            </div>
+        </nav>
+    </header>
+
+    <!--------------------SIDE BAR--------------------->
+    <div class="container">
+    <div class="side-bar">
+        <button><img src="images/pen.png">Compose</button>
+        <div class="links">
+            <a href="#"><img src="images/mail.png"><p>Inbox</p></a>
+            <a href="#"><img src="images/star.png"><p>Started</p></a>
+            <a href="#"><img src="images/snooze.png"><p>Snoozed</p></a>
+            <a href="#"><img src="images/mail.png"><p>Send</p></a>
+            <a href="#"><img src="images/draft.png"><p>draft</p></a>
+            <a href="#"><img src="images/show-more.png"><p>Show More</p></a>
+        </div>
+     
+    </div>
+    <div class="likns-right">
+        <a href="#"><img src="images/calender.png"></a>
+        <a href="#"><img src="images/keep.png"></a>
+        <a href="#"><img src="images/task.png"></a>
+        <a href="#"><img src="images/admin.png"></a>
+    </div>
+</div>
+ 
+<div class="container1">
+    <div class="header">Primary Inbox</div>
+    <ul class="email-list">
+      <!-- Email 1 -->
+      <li class="email-item">
+        <input type="checkbox" class="email-checkbox">
+        <div class="email-sender">Google</div>
+        <div class="email-subject">Your account security alert</div>
+        <div class="email-snippet">We noticed a new sign-in to your account...</div>
+        <div class="email-time">10:30 AM</div>
+      </li>
+      <!-- Email 2 -->
+      <li class="email-item">
+        <input type="checkbox" class="email-checkbox">
+        <div class="email-sender">Netflix</div>
+        <div class="email-subject">New movies this month</div>
+        <div class="email-snippet">Check out the latest movies and TV shows...</div>
+        <div class="email-time">9:15 AM</div>
+      </li>
+      <!-- Email 3 -->
+      <li class="email-item">
+        <input type="checkbox" class="email-checkbox">
+        <div class="email-sender">Amazon</div>
+        <div class="email-subject">Your order has been shipped</div>
+        <div class="email-snippet">Your order #12345 has been shipped and is on...</div>
+        <div class="email-time">Yesterday</div>
+      </li>
+      <!-- Email 4 -->
+      <li class="email-item">
+        <input type="checkbox" class="email-checkbox">
+        <div class="email-sender">GitHub</div>
+        <div class="email-subject">New pull request on your repository</div>
+        <div class="email-snippet">A new pull request has been submitted for...</div>
+        <div class="email-time">2 days ago</div>
+      </li>
+      <!-- Email 5 -->
+      <li class="email-item">
+        <input type="checkbox" class="email-checkbox">
+        <div class="email-sender">Spotify</div>
+        <div class="email-subject">Discover Weekly Playlist</div>
+        <div class="email-snippet">Your Discover Weekly playlist is now available...</div>
+        <div class="email-time">Last week</div>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
